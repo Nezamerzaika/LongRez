@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Длинный рез - Профессиональная резка плитки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            height: 60px;
+        }
+        header .left-section {
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        header h1 {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-size: 1.2em;
+        }
+        header h1 span {
+            font-size: 0.7em;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            font-size: 1em;
+        }
+        header nav a:hover {
+            background-color: #666;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 100px auto 0;
+            padding: 20px;
+            flex: 1;
+        }
+        .section-title {
+            text-align: center;
+            margin: 40px 0 20px;
+            font-size: 1.5em;
+            color: #444;
+        }
+        .service, .about-us {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .service ul, .about-us ul {
+            text-align: left;
+            padding: 0 20px;
+        }
+        .about-us {
+            display: flex;
+            justify-content: space-around;
+        }
+        .about-us div {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .contact {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        label {
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Анимация перехода */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left-section">
+            <img src="/image.png" alt="Логотип Длинный рез">
+            <div>
+                <h1>Длинный рез<br><span>Делаем красиво</span></h1>
+            </div>
+        </div>
+        <nav>
+            <a href="#services">Услуги</a>
+            <a href="#contacts">Контакты</a>
+            <a href="#charity">Благотворительность</a>
+            <a href="#about-us">О нас</a>
+            <span style="margin-left: 20px; margin-right: 20px; color: #fff; font-size: 1.2em;">+7 (999) 052-52-62</span>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="services">
+            <h2 class="section-title">Услуги</h2>
+            <div class="service">
+                <h3>Гидроабразивная резка деталей любой геометрии</h3>
+                <p>Гидроабразивная резка:</p>
+                <ul>
+                    <li>Металла (черная сталь, HARDOX, нержавейка, титан, различные сплавы)</li>
+                    <li>Керамогранит (плитка, керлит, керамика, мрамор, камень)</li>
+                    <li>Фанера, пластик, резина, стекло, композит</li>
+                    <li>Гидроабразивная резка панно из керамики на пол и на стену</li>
+                    <li>Гидроабразивная резка различных деталей для разных механизмов</li>
+                    <li>Гидроабразивная резка стекла и зеркала (прямая и фигурная резка)</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Лазерная резка органических материалов</h3>
+                <p>Лазерная резка, станок с трубкой СО 2 мощностью 150Вт (рабочее поле 1290х2500):</p>
+                <ul>
+                    <li>Оргстекло</li>
+                    <li>ПВХ</li>
+                    <li>Полистирол</li>
+                    <li>Акрил</li>
+                </ul>
+            </div>
+            <div class="service">
+                <h3>Токарная и фрезерная резка деталей любой геометрии из дерева</h3>
+                <ul>
+                    <li>Любое дерево</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact">
+                <h3>Свяжитесь с нами</h3>
+                <form action="#" method="post">
+                    <label for="first-name">Имя:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    
+                    <label for="last-name">Фамилия:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    
+                    <label for="phone">Номер телефона:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    
+                    <label for="email">Адрес электронной почты:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <input type="submit" value="Отправить">
+                </form>
+                <p>Телефон: <strong>+7 (999) 052-52-62</strong></p>
+            </div>
+        </section>
+
+        <section id="charity">
+            <h2 class="section-title">Служба благотворительности</h2>
+            <div class="contact">
+                <h3>Мы помогаем:</h3>
+                <ul>
+                    <li>Отправляем гуманитарную помощь в ДНР и ЛНР</li>
+                    <li>Помогаем ветеранам и участникам СВО</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about-us">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-us">
+                <div>
+                    <h3>Что делаем?</h3>
+                    <ul>
+                        <li>Режем</li>
+                        <li>Пилим</li>
+                        <li>Сверлим</li>
+                        <li>Точим</li>
+                        <li>Исправляем</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Почему красиво?</h3>
+                    <ul>
+                        <li>Спектр услуг и безопасность</li>
+                        <li>Стоимость и отсрочка</li>
+                        <li>Сервис и внимание к деталям</li>
+                        <li>Сроки</li>
+                        <li>Качество и скорость</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+
+        <p>&copy; 2024 Длинный рез. Все права защищены.</p>
+    </footer>
+</body>
+</html>
